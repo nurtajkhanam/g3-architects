@@ -1,6 +1,6 @@
 /* Google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@100;200;300;700&display=swap");
 /* common styles */
 .primary-btn {
   width: 180px;
@@ -10,6 +10,7 @@
   border-radius: 8px;
   background: #ff900e;
   color: #fff;
+  font-size: 16px;
 }
 /* header section styles */
 .header {
@@ -22,7 +23,7 @@
   padding: 40px 200px;
 }
 .nav-title {
-  color: var(#131313);
+  color: #131313;
   text-align: center;
   font-family: Work Sans;
   font-size: 45px;
@@ -34,7 +35,7 @@
   gap: 20px;
 }
 .nav-link ul li {
-  color: var(#424242);
+  color: #424242;
   text-align: center;
   font-family: Work Sans;
   font-size: 18px;
@@ -47,7 +48,7 @@
   padding-bottom: 50px;
 }
 .header-hero-title {
-  color: var(#131313);
+  color: #131313;
   text-align: center;
   font-family: Work Sans;
   font-size: 64px;
@@ -55,7 +56,7 @@
   margin: 0px;
 }
 .header-hero-description {
-  color: var( #727272);
+  color: var(#727272);
   width: 868px;
   text-align: center;
   margin-left: 320px;
@@ -66,9 +67,8 @@
 }
 .header-hero-btn {
   text-align: center;
-
 }
-.header-hero-banner{
+.header-hero-banner {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -77,3 +77,229 @@
   height: 500px;
 }
 /* Feature section styles */
+
+.features {
+  margin: 90px 140px;
+  display: flex;
+  gap: 75px;
+  justify-content: center;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-images img {
+  width: 275px;
+  height: 275px;
+  border-radius: 8px;
+}
+.feature-info {
+  margin-top: 175px;
+}
+.feature-title {
+  margin: 0;
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 45px;
+}
+.feature-title span {
+  color: #131313;
+}
+.feature-title.primary-color {
+  color: #ff900e;
+}
+.feature-description {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 300px;
+  line-height: 18px;
+}
+/* feature benifit style */
+.feature-benifit {
+  margin: 30px 130px;
+  display: flex;
+  gap: 100px;
+}
+
+.feature-benifit-header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.feature-benifit-header hr {
+  width: 5px;
+  height: 100px;
+  background: #ff900e;
+}
+.feature-benifit-title {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.feature-benifit-detail {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.feature-benifit-type {
+  width: 586px;
+  height: 171px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.benifit-title {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 30px 0px 0px 30px;
+}
+.benifit-detail {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 30px;
+  margin: 0;
+}
+.feature-benifit-banner img {
+  width: 600px;
+  height: 900px;
+  z-index: 1;
+}
+.feature-benifit-btn .primary-btn {
+  width: 275px;
+  height: 150px;
+  flex-shrink: 0;
+  z-index: 2;
+  position: relative;
+  bottom: 75px;
+  right: 60px;
+}
+.feature-benifit-btn .primary-btn span {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* some fact section styles */
+.facts,
+.sponsors {
+  margin: 120px 130px;
+}
+.fact-title {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+}
+.fact-detail {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 542px;
+  margin-bottom: 90px;
+}
+.fact-achievements {
+  display: flex;
+  gap: 120px;
+}
+.achievement {
+  margin-left: 30px;
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+}
+.achievement-box {
+  margin: 30px;
+}
+.achievement-icon img {
+  width: 45.221px;
+  height: 45.221px;
+}
+.achievement-num {
+  color: #424242;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.achievement-type {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* sponsor section style */
+.sponsor-title {
+  color: #131313;
+  font-family: Work Sans;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+}
+.sponsor-detail {
+  color: #727272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 542px;
+  margin-left: 350px;
+}
+.sponsor-company {
+  display: flex;
+  gap: 100px;
+  margin: 50px 0px 150px 0px;
+}
+.company img {
+  width: 166.757px;
+  height: 50px;
+  flex-shrink: 0;
+  mix-blend-mode: luminosity;
+}
+/* footer section style */
+.footer {
+  margin: 130px;
+}
+.footer-ground {
+  width: 1250px;
+  height: 100px;
+  border-radius: 8px;
+  background: #fff4e7;
+  text-align: center;
+
+}
+.footer-description {
+  color: #424242;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 35px;
+}
