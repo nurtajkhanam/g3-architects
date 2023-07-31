@@ -303,3 +303,38 @@
   font-weight: 400;
   padding-top: 35px;
 }
+
+/* ------------------------------------------
+          Responsive Design
+----------------------------------------------*/
+
+@media screen and (max-width:768px) {
+
+  body {
+    width: 576px;
+  }
+  .navbar , .nav-link ul , .feature-benifit , .sponsor-company {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+  .features {
+    flex-direction: column-reverse;
+  }
+  .feature-title , .feature-title.primary-color ,
+   .feature-description , .feature-btn , .feature-images ,
+   .feature-benifit , .some-facts , .sponsor-title ,
+   .sponsor-company  {
+    text-align: center;
+    width: 550px;
+    padding-left: 300px;
+  }
+  .fact-achievements {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding-left: 300px;
+
+  }
+
+}
